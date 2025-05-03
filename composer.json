@@ -1,0 +1,14 @@
+{
+  "name": "drupal_recipe/paragon_seo",
+  "description": "",
+  "type": "drupal-recipe",
+  "require": {
+    "drupal/robotstxt": "^1.4",
+    "drupal/metatag": "^2.0",
+    "drupal/metatag_async_widget": "^1.0",
+    "drupal/schema_metatag": "^3.0",
+    "drupal/simple_sitemap": "^4.0",
+    "drupal/sitemap": "^2.0@beta"
+  },
+  "license": "GPL-2.0-or-later"
+}

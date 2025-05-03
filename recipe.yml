@@ -1,0 +1,21 @@
+name: "Paragon SEO"
+description: "This recipe sets up the Paragon SEO configurations"
+type: "SEO"
+recipes:
+  - paragon-media-recipe
+install:
+  - metatag
+  - metatag_async_widget
+  - metatag_mobile
+  - metatag_open_graph
+  - metatag_twitter_cards
+  - schema_metatag
+  - robotstxt
+  - simple_sitemap
+  - sitemap
+config:
+  import:
+    metatag: *
+    robotstxt: *
+    field: *
+  strict: true
